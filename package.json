@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Alberto Souza",
+    "email": "contato@albertosouza.net"
+  },
+  "name": "grunt-we-ember-template",
+  "description": "An npm module for preprocess we.js tempaltes and override templates if exists in thema folder",
+  "version": "1.5.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wejs/grunt-we-ember-template"
+  },
+  "keywords": [
+    "Ember.js",
+    "Handlebars.js",
+    "Grunt.js",
+    "We.js",
+    "sails.js"
+  ],
+  "main": "./lib/main",
+  "engines": {
+    "node": ">=v0.8.1"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "glob": "*",
+    "mkdirp": "*",
+    "ember-template-compiler": "1.5.0"
+  }
+}
